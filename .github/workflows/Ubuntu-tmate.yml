@@ -3,7 +3,8 @@
 name: Ubuntu (tmate)
 
 on:
-  workflow_dispatch:
+  watch:
+    types: started
 
 jobs:
   Instance:
